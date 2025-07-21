@@ -147,18 +147,7 @@
 
 
 
-/* award-section */
 
-/* .award-text{
-  position: absolute;
-  left: 37.5%;
-  margin-top: 3rem;
-    font-family: var(--poppin-font);
-    font-size: 2.5rem !important;
-    letter-spacing: 3px;
-    font-weight: 400;
-    line-height: 45px;
-} */
 .award-img-div{
     display: flex;
     flex-direction: column;
