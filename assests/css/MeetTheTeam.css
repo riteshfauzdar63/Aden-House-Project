@@ -97,7 +97,7 @@
 }
 
 .navbar .header-btn{
-  color: white;
+  color: var(--white-font);
   border: 1px solid var(--link-border-color);
   padding: 7px 20px;
   border-radius: 0px;
@@ -108,7 +108,7 @@
 }
 
 .navbar .header-btn:hover{
-  color: #f7f0f0;
+  color: var(--white-font);
 }
 
 /* team-section start */

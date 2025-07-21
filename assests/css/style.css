@@ -9,7 +9,6 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    /* background-size: contain; */
 }
 
 .header-bg-img .row{
@@ -177,7 +176,7 @@
 }
 
 .navbar .header-btn{
-  color: white;
+  color: var(--white-font);
   border: 1px solid #dfc5a6;
   padding: 6px 25px;
   border-radius: 0px;
@@ -189,7 +188,7 @@
 }
 
 .navbar .header-btn:hover,.navbar .header-btn:focus{
-  color: white;
+  color: var(--white-font);
 }
 
 
