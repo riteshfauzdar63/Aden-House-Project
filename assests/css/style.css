@@ -182,8 +182,10 @@
   padding: 6px 25px;
   border-radius: 0px;
   font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 500;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--poppins-font);
+
 }
 
 .navbar .header-btn:hover,.navbar .header-btn:focus{
