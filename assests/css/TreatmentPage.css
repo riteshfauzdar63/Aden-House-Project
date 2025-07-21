@@ -515,6 +515,17 @@
       justify-content: space-evenly;
     }
 
+    .logo-text-content img {
+      width: 22%;
+      margin: 0px !important;
+      float: none;
+    }
+
+    .logo-text-content{
+      align-items: center;
+      text-align: center;
+      padding: 0px !important;
+    }
     .dropdown-menu-custom {
     position: static !important;
     flex-direction: column;

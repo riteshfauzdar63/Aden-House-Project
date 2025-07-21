@@ -3,36 +3,10 @@
     padding: 0;
 }
 
-/* :root{
-    --white-font : #f7f0f0;
-    --primary-font: "Playfair Display", serif;
-    --seconday-font-family: "Open Sans", sans-serif;
-    --poppins-font: "Poppins", sans-serif;
-    --logo-font-family: "Cinzel", serif;
-    --para-font : "Inter", sans-serif;
-
-    --main-text-color : #295870;
-    --goldern-text-color : #bc8a52;
-    
-} */
-/* .playfair-display{
-    font-family: "Playfair Display", serif;
-    font-style: normal;
-  }
-
-  .open-sans {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    /* font-weight: <weight>;
-    font-style: normal; */
-    /* font-variation-settings:
-      "wdth" 100;
-  } */ 
-
  
 
   header{
-    background-color: #47575D;
+    background-color: #455c6a;
     color: #fff;
   }
   .navbar-row{
@@ -366,9 +340,19 @@
       padding-top: 20px;
     }
 
-    .logo-text-content {
-      padding-right: 3rem !important;
+    .logo-text-content img {
+      width: 22%;
+      margin: 0px !important;
+      float: none;
     }
+
+    .logo-text-content{
+      align-items: center;
+      text-align: center;
+      padding: 0px !important;
+    }
+
+
 
     .dentist-text {
       font-size: 1.3rem;
