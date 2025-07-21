@@ -32,6 +32,10 @@
   border: 1px solid var(--link-border-color);
   padding: 7px 20px;
   border-radius: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--poppins-font);
+
 }
 
 .navbar .header-btn:hover{
