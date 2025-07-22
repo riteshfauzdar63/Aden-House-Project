@@ -275,10 +275,10 @@
     }
   }
 
-  @media screen and (min-width:375px) and (max-width:576px) {
+  @media (max-width:609px) {
 
     .header-subtext {
-      font-size: 13px;
+      font-size: 12px;
     }
 
     .logo-text-content img {
@@ -296,9 +296,11 @@
     .navbar{
       padding-left: 0px !important;
       padding-right: 0px !important;
+      padding-top: 1rem !important;
     }
     .navbar-toggler {
       padding: 0.56rem 1.5rem !important;
+      font-size: 16px !important;
     }
 
     .navbar>.container-fluid{
@@ -312,6 +314,7 @@
 
     .contact-us-btn{
       display: block;
+      font-size: 16px;
     }
 
     .header-bg-img .row {
