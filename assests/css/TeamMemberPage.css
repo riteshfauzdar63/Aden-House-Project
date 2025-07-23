@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+header .row{
+  max-width: 1255px;
+}
  
 
   header{
@@ -11,30 +14,21 @@
   }
   .navbar-row{
     width: 85% !important;
+     padding-top: 33px !important;
 }
 
-.navbar-row h1{
-  font-family: var(--logo-font-family);
-  font-size: 30px !important;
-  margin-bottom: 0px;
-  line-height: 35px;
-}
-
-  .header-subtext{
-    font-family: var(--seconday-font-family);
-    font-size: 12px;
-    word-spacing: 2px;
-    font-weight: 300;
-}
 
 .navbar .header-btn{
   color: var(--white-font);
-  border: 1px solid var(--link-border-color);
-  padding: 7px 20px;
   border-radius: 0px;
-  font-size: 18px;
+  font-size: 16px;
+  text-transform: uppercase;
   font-weight: 500;
   font-family: var(--poppins-font);
+  text-align: center;
+  width: 149px;
+  height: 34px;
+  border: 1px solid #cdb19b;
 
 }
 
@@ -81,8 +75,9 @@
 }
 
 .logo-text-content img{
-    width: 12%;
-    margin-right: 4rem;
+   width : 205px; 
+    height: 90px;
+    object-fit: cover;
     float: inline-end;
 }
 
@@ -94,7 +89,7 @@
 }
 
 .icon-div i{
-    font-size: 30px;
+    font-size: 23px;
     color: #e9e8e8;
 }
 
@@ -107,6 +102,9 @@
   color: var(--white-font);
   font-size: 16px;
   font-weight: 500;
+  font-family: var(--poppins-font);
+  line-height: 24px;
+  letter-spacing: 0.2px;
 }
 .navbar-collapse .nav-link.active{
   border-bottom: 1px solid var(--link-border-color);
@@ -120,43 +118,46 @@
 
 
 .profile h1 {
-  font-family: var(--primary-font);
-  font-size: 2rem;
-  font-weight: 600;
-  color: var(--main-text-color);
+  font-family: var(--abhaya-font);
+    color: #465e6b;
+    font-size: 2.8125rem;
+    font-weight: 500 !important;
+    margin: 0px !important;
 }
 
 .profile h2 {
-  font-family: var(--primary-font);
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: var(--goldern-text-color);
+  color: #af915d;
+  font-family: var(--abhaya-font);
+  font-size: 1.875rem;
+  line-height: 40px;
+  margin: 0px !important;
 }
 
 .profile p.gdc {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
+  line-height: 40px;
   color: #000000;
-  font-family: var(--poppin-font);
+  font-family: var(--poppins-font);
 }
 
 
 
 .content .highlight {
-  font-family: var(--primary-font);
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: var(--goldern-text-color);
-  line-height: 1.6;
+  color: #af915d;
+    font-family: var(--abhaya-font);
+    font-size: 1.4375rem;
+    font-weight: 600;
+    line-height: 32px;
   margin-bottom: 20px;
+  margin-top: 0px !important;
 }
 
 .content p {
-  font-size: 1.14rem;
-    line-height: 30px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    font-family: var(--para-font);
+  font-size: 1rem;
+    margin: 20px 0 0;
+    line-height: 32px;
+    font-family: var(--poppins-font);
 }
 
 .meet-dentist-section{
@@ -165,10 +166,11 @@
   margin-top: 5%;
 }
 .dentist-text{
-  font-size: 1.3rem;
   padding-top: 48%;
-  text-align: center;
-  color: var(--main-text-color);
+    color: #465e6b;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
   text-transform: uppercase;
 }
 
@@ -201,7 +203,9 @@
     background-color: #47575D;
     color: #fff;
     padding: 50px 20px;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: var(--poppins-font);
+    font-size: 16px;
+    line-height: 25px;
   }
 
   .footer a{
@@ -262,6 +266,17 @@
     color: #ddd;
   }
 
+   @media screen and (min-width : 1441px) {
+    
+    .logo-text-content {
+      padding-right: 8rem !important;
+    }
+  }
+  @media screen and (min-width : 1360px) {
+      .logo-text-content {
+      padding-right: 5rem !important;
+    }
+    }
 
  
 
@@ -282,14 +297,11 @@
     font-size: 14px;
   }
   .content .highlight {
-    font-size: 1rem;
-    margin-bottom: 15px;
-    line-height: 1.5;
+    font-size: 1.08rem;
   }
   .content p {
-    font-size: .85rem;
-    margin-bottom: 15px;
-    line-height: 25px;
+    font-size: .89rem;
+    line-height: 31px;
   }
   .meet-dentist-section {
     padding: 5rem 0;
@@ -345,8 +357,6 @@
     }
 
     .logo-text-content img {
-      width: 22%;
-      margin: 0px !important;
       float: none;
     }
 
@@ -367,9 +377,6 @@
       font-size: 13px;
     }
 
-    .logo-text-content img {
-      width: 22%;
-    }
 
     .navbar{
       padding-left: 0px !important;
