@@ -337,6 +337,10 @@ header .row{
     width: 100%;
     /* margin-bottom: 2rem; */
   }
+
+   .treatment-carousel{
+    width: 100%;
+   }
   
   .treatment-carousel .slick-slide {
   opacity: 0.5;
@@ -345,7 +349,7 @@ header .row{
   margin: 30px 35px;
   padding: 0 90px;
   position: relative;
-  max-width: 1095px;
+  max-width: 910px;
 }
 
 .treatment-carousel .slick-center {
@@ -367,7 +371,7 @@ header .row{
 
 /* Hide line after the last slide */
 .treatment-carousel .slick-slide:last-child::after {
-  display: none;
+  content: none;
 }
 
 .treatment-carousel .slick-dots li button {
@@ -560,14 +564,26 @@ header .row{
   }
 
 
-  @media screen and (min-width : 1360px) {
+  @media screen and (min-width : 1441px) {
     
     .logo-text-content {
       padding-right: 7rem !important;
     }
-    .treatment-carousel .slick-slide::after {
-      width: 225px;
-          left: 97%;
+    /* .treatment-carousel .slick-slide::after {
+      width: 195px;
+          left: -193px;
+    } */
+
+    .treatment-carousel{
+  width: 1200px;
+}
+
+  }
+
+  @media screen and (min-width : 1441px) {
+    
+    .logo-text-content {
+      padding-right: 7rem !important;
     }
   }
 
