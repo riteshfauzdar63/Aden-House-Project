@@ -773,7 +773,7 @@ header .row{
   }
 
    .treatment-carousel .slick-slide::after {
-  content: none;
+  width: 55px;
 }
   }
 
@@ -818,7 +818,7 @@ header .row{
       text-align: center;
       margin-bottom: 15rem;
       padding-top: 1rem;
-      padding-right: 0rem !important;
+      padding-right: 0px !important;
     }
 
 
