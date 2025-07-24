@@ -496,6 +496,35 @@ header .row{
   display: none;
 }
 
+#atmosphre-post-carousel{
+  display: none;
+}
+
+#atmosphre-post-carousel .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #007b8f;
+  opacity: 0.5;
+  margin: 0 6px;
+  border: none;
+  transition: 0.3s ease;
+}
+
+#atmosphre-post-carousel .carousel-indicators .active {
+  opacity: 1;
+  background-color: #807e7e;
+}
+
+#atmosphre-post-carousel .carousel-indicators {
+  position: static;
+  margin-top: 1rem;  
+  justify-content: center;
+}
+
+
+
+
 .footer {
     background-color: #465e6b;
     color: #fff;
@@ -888,6 +917,14 @@ header .row{
 
       #insta-post-carousel{
         display: block;
+      }
+
+      #atmosphre-post-carousel{
+        display: block;
+      }
+
+      .img-slider{
+        display: none;
       }
 
       .award-img-container{
