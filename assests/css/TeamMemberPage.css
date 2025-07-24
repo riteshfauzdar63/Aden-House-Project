@@ -9,7 +9,7 @@ header .row{
  
 
   header{
-    background-color: #455c6a;
+    background-color: #465e6b;
     color: #fff;
   }
   .navbar-row{
@@ -165,13 +165,29 @@ header .row{
   padding: 9% 0;
   margin-top: 5%;
 }
+.dentist-heading {
+  margin-top: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+.heading-line {
+  /* flex: 1; */
+  width: 83px;
+  height: 1px;
+  background-color: #cdb19b;
+}
+
 .dentist-text{
-  padding-top: 48%;
     color: #465e6b;
     font-size: 1.25rem;
     font-weight: 600;
     text-align: center;
   text-transform: uppercase;
+margin-bottom: 0px !important;
 }
 
 /* award-section */
@@ -200,7 +216,7 @@ header .row{
 
 
 .footer {
-    background-color: #47575D;
+    background-color: #465e6b;
     color: #fff;
     padding: 50px 20px;
     font-family: var(--poppins-font);
@@ -308,6 +324,9 @@ header .row{
     margin-top: 2%;
   }
  
+.dentist-text {
+   font-size: 18px;
+}
   }
 
   @media screen and (min-width:768px) and (max-width:992px) {
@@ -405,6 +424,15 @@ header .row{
 
     .award-img-div {
       margin-bottom: 10px;
+    }
+
+    .dentist-heading {
+     margin-top: 0px; 
+     display: block; 
+    }
+
+    .heading-line{
+      display: none;
     }
 
      

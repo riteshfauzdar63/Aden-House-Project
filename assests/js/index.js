@@ -21,7 +21,7 @@
     slidesToShow : 1,
     slidesToScroll: 1, 
     dots : true,
-    autoplay : true,
+    // autoplay : true,
     autoplaySpeed : 2000,
     centerPadding :"220px",
     arrows: false,
@@ -58,5 +58,27 @@
         }
       }
     ]
+  });
+    // Dynamic centerPadding for large screens
+  function updateCenterPadding() {
+    const width = window.innerWidth;
+
+    if (width > 2560) {
+      $(".treatment-carousel").slick("slickSetOption", "centerPadding", "500px", true);
+    } else if (width > 1920) {
+      $(".treatment-carousel").slick("slickSetOption", "centerPadding", "400px", true);
+    } else if (width > 1440) {
+      $(".treatment-carousel").slick("slickSetOption", "centerPadding", "300px", true);
+    } else {
+      $(".treatment-carousel").slick("slickSetOption", "centerPadding", "220px", true);
+    }
+  }
+
+  // Run once on load
+  updateCenterPadding();
+
+  // Update on resize
+  $(window).on("resize", function () {
+    updateCenterPadding();
   });
 });
