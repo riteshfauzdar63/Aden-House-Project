@@ -803,6 +803,213 @@ footer .icon-div i {
   }
 }
 
+ @media screen and (min-width: 610px) and (max-width:767px) {
+  .contact-us-btn {
+    display: block;
+    font-size: 16px;
+  }
+
+  .navbar-toggler {
+    font-size: 16px !important;
+  }
+
+  .header-bg-img {
+    flex-direction: column-reverse !important;
+  }
+
+  .header-bg-img .row {
+    width: 100% !important;
+  }
+
+  .dropdown-menu-custom {
+    position: static !important;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: none;
+    top: auto !important;
+    left: auto !important;
+  }
+
+  .dropdown-flex-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+
+  .bottom-box {
+    display: none;
+  }
+
+  .logo-text-content {
+    text-align: center;
+    margin-bottom: 15rem;
+    padding-top: 1rem;
+    padding-right: 0px !important;
+  }
+
+
+  .logo-text-content img {
+    float: none;
+    margin-right: 0rem;
+  }
+
+
+  .navbar {
+    padding-left: 0px !important;
+  }
+
+  .nav-div {
+    margin-bottom: 0rem;
+  }
+
+  .icon-div {
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+    justify-content: center !important;
+    gap: 20px;
+  }
+
+  .section-main-heading {
+    font-size: 1.75rem !important;
+  }
+
+  .section-main-heading-blue {
+    font-size: 2.5rem !important;
+    line-height: 25px !important;
+    margin-top: 10px !important;
+  }
+
+  .welcome-section {
+
+    padding: 1rem 1rem;
+  }
+
+  .paragraph-text {
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .find-out-more {
+    font-size: 15px;
+  }
+
+  .atmosphre-section .right-text-section {
+    padding: 0px;
+    text-align: center;
+  }
+
+
+
+  .treatment-section {
+    text-align: center;
+    padding: 1rem 0rem;
+  }
+
+  .treatment-carousel .slick-slide::after {
+    content: none;
+  }
+
+  .treatment-carousel .slick-slide {
+    margin: 0px;
+  }
+
+  .treatment-carousel .slick-dots {
+    bottom: -45px;
+  }
+
+  .pratice-section {
+    padding-bottom: 0rem !important;
+  }
+
+  .Practice-content {
+    background-color: white;
+    width: 100% !important;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+
+  .info-block-section .row {
+    gap: 1.5rem !important;
+  }
+
+  .info-bg-img-large {
+    padding-bottom: 98%;
+  }
+
+  .small-bg-img {
+    padding-bottom: 75%;
+  }
+
+
+
+  .award-img-div {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  #insta-post-carousel {
+    display: block;
+  }
+
+  #atmosphre-post-carousel {
+    display: block;
+  }
+
+  .img-slider {
+    display: none;
+  }
+
+  .award-img-container {
+    display: none;
+  }
+
+
+  .footer {
+    padding: 3rem 0px;
+    text-align: center;
+
+  }
+
+  .footer p {
+    font-size: 17px;
+  }
+
+  .footer .phone-detail {
+    margin-top: 1.5rem;
+  }
+
+  .footer .site-update-text {
+    margin-top: 2rem;
+    padding-bottom: 0rem;
+  }
+
+
+  .footer .icon-div {
+    justify-content: center !important;
+    gap: 1rem;
+    margin: 10px 0 0 !important;
+    padding: 10px 0px;
+  }
+
+  .footer .icon-div i {
+    font-size: 35px;
+  }
+
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    gap: 15px;
+    font-size: 22px;
+  }
+
+
+}
+
 @media screen and (min-width: 375px) and (max-width:609px) {
   .contact-us-btn {
     display: block;
