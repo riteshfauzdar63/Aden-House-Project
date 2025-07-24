@@ -610,10 +610,10 @@ footer .icon-div i {
 
 
   .footer .icon-div {
-            justify-content: center !important;
-        gap: 1rem;
-        margin: 10px 0 0 !important;
-        padding: 10px 0px;
+    justify-content: center !important;
+    gap: 1rem;
+    margin: 10px 0 0 !important;
+    padding: 10px 0px;
   }
 
   .footer .icon-div i{
