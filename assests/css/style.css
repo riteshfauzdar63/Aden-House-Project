@@ -521,13 +521,17 @@ header .row{
   justify-content: center;
 }
 
+.award-img-container .insta-img{
+  width: 100% !important;
+  height: auto;
+}
 
 
 
 .footer {
     background-color: #465e6b;
     color: #fff;
-    padding: 4rem 20px;
+    padding: 4rem 0px;
     font-family: var(--poppins-font);
     font-size: 16px;
     line-height: 25px;
