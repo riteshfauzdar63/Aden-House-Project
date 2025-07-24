@@ -367,7 +367,112 @@ margin-bottom: 0px !important;
       font-size: 11px;
     }
   }
+  
+  @media screen and (min-width:577px) and (max-width:767px) {
 
+    .navbar{
+      padding-top: 20px;
+    }
+
+    .logo-text-content img {
+      float: none;
+    }
+
+    .logo-text-content{
+      align-items: center;
+      text-align: center;
+      padding: 0px !important;
+    }
+
+
+
+    .dentist-text {
+      font-size: 1.3rem;
+      padding-bottom: 1rem;
+    }
+
+    .header-subtext {
+      font-size: 13px;
+    }
+
+
+    .navbar{
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+    .navbar-toggler {
+      padding: 0.56rem 1.5rem !important;
+    }
+
+    .navbar>.container-fluid{
+      justify-content: space-evenly;
+    }
+
+    .icon-div {
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .contact-us-btn{
+      display: block;
+    }
+
+    .header-bg-img .row {
+      width: 100% !important;
+    }
+
+    .award-img-div {
+      margin-bottom: 10px;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .dentist-heading {
+     margin-top: 0px; 
+     display: block; 
+    }
+
+    .heading-line{
+      display: none;
+    }
+
+     
+  .footer {
+    padding: 3rem 0px;
+    text-align: center;
+    
+}
+
+.footer p{
+  font-size: 17px;
+}
+.footer .phone-detail {
+  margin-top: 1.5rem;
+}
+
+.footer .site-update-text {
+  margin-top: 2rem;
+  padding-bottom: 0rem;
+}
+
+
+.footer .icon-div{
+          justify-content: center !important;
+        gap: 1rem;
+        margin: 10px 0 0 !important;
+        padding: 10px 0px;
+  }
+
+
+.footer-bottom {
+flex-direction: column;
+text-align: center;
+padding: 1rem;
+gap: 15px;
+font-size: 22px;
+}
+
+}
   @media screen and (min-width:375px) and (max-width:576px) {
 
     .navbar{
@@ -424,6 +529,7 @@ margin-bottom: 0px !important;
     .award-img-div {
       margin-bottom: 10px;
       flex-direction: row;
+      justify-content: center;
     }
 
     .dentist-heading {

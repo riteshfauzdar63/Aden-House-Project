@@ -503,6 +503,135 @@ footer .icon-div i {
   }
 }
 
+@media screen  and (min-width:577px) and (max-width:767px){
+
+  .navbar {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .navbar-toggler {
+    padding: 0.56rem 1.5rem !important;
+  }
+
+  .navbar>.container-fluid {
+    justify-content: space-evenly;
+  }
+
+  .logo-text-content img {
+    float: none;
+  }
+
+  .logo-text-content {
+    align-items: center;
+    text-align: center;
+    padding: 0px !important;
+  }
+
+  .dropdown-menu-custom {
+    position: static !important;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: none;
+    top: auto !important;
+    left: auto !important;
+  }
+
+  .dropdown-flex-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .icon-div {
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .contact-us-btn {
+    display: block;
+  }
+
+  .header-bg-img .row {
+    width: 100% !important;
+  }
+
+  .text-treatment-section .left-section {
+    padding-top: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 1rem;
+  }
+
+  .text-treatment-section .right-section {
+    padding-top: 1rem;
+    padding-left: 10px;
+  }
+
+  .treatment-after-before-section .img-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .question-section .container {
+    width: 100% !important;
+  }
+
+  .add-ques-img {
+    position: absolute;
+    transform: translate(-11px, 1px);
+  }
+
+  .award-img-div {
+    margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+  .footer {
+    padding: 3rem 0px;
+    text-align: center;
+
+  }
+
+  .footer p {
+    font-size: 17px;
+  }
+
+  .footer .phone-detail {
+    margin-top: 1.5rem;
+  }
+
+  .footer .site-update-text {
+    margin-top: 2rem;
+    padding-bottom: 0rem;
+  }
+
+
+  .footer .icon-div {
+    justify-content: center !important;
+    gap: 1rem;
+    margin: 10px 0 0 !important;
+    padding: 10px 0px;
+  }
+
+  .footer .icon-div i{
+    font-size: 35px;
+  }
+
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    gap: 15px;
+    font-size: 22px;
+  }
+
+
+}
+
 @media screen and (min-width:375px) and (max-width:576px) {
 
   .navbar {
@@ -585,6 +714,7 @@ footer .icon-div i {
   .award-img-div {
     margin-bottom: 10px;
     flex-direction: row;
+    justify-content: center;
   }
 
 
