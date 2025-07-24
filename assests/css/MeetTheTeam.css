@@ -91,13 +91,16 @@
 }
 
 .navbar .header-btn{
-  color: var(--white-font);
-  border: 1px solid var(--link-border-color);
-  padding: 7px 20px;
+ color: var(--white-font);
   border-radius: 0px;
-  font-size: 18px;
+  font-size: 16px;
+  text-transform: uppercase;
   font-weight: 500;
   font-family: var(--poppins-font);
+  text-align: center;
+  width: 149px;
+  border: 1px solid #cdb19b;
+
 
 }
 
