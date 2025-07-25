@@ -293,7 +293,7 @@ footer .icon-div i {
   }
 }
 
-@media screen and (min-width: 610px) and (max-width:768px) {
+@media screen and (min-width: 609px) and (max-width:768px) {
   .contact-us-btn {
     display: block;
   }
@@ -310,6 +310,10 @@ footer .icon-div i {
     flex-direction: row;
   }
 
+  .navbar-toggler {
+    padding: 0.56rem 1.5rem !important;
+    font-size: 16px !important;
+  }
 
   .icon-div {
     justify-content: center;
