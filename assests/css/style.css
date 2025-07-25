@@ -966,6 +966,9 @@ footer .icon-div i {
     display: none;
   }
 
+  .award-img-div{
+    justify-content: center;
+  }
 
   .footer {
     padding: 3rem 0px;
@@ -1140,6 +1143,7 @@ footer .icon-div i {
 
   .info-block-section .row {
     gap: 1.5rem !important;
+    justify-content: center !important;
   }
 
   .info-bg-img-large {
