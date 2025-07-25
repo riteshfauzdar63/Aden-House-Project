@@ -1013,7 +1013,7 @@ footer .icon-div i {
 
 }
 
-@media screen and (min-width: 375px) and (max-width:609px) {
+@media (max-width:609px) {
   .contact-us-btn {
     display: block;
     font-size: 16px;
@@ -1168,6 +1168,11 @@ footer .icon-div i {
 
   #atmosphre-post-carousel {
     display: block;
+  }
+
+  #atmosphre-post-carousel img{
+    width: 75% !important;
+    margin: 0 auto;
   }
 
   .img-slider {
