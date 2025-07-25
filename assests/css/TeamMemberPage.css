@@ -104,7 +104,7 @@ header {
   font-weight: 500;
   font-family: var(--poppins-font);
   line-height: 24px;
-  padding: .9rem 0rem !important;
+  padding: .3rem 0rem !important;
 }
 
 .navbar-collapse .nav-link.active {
