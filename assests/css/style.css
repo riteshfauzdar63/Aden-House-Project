@@ -1013,7 +1013,7 @@ footer .icon-div i {
 
 }
 
-@media (max-width:609px) {
+@media screen and (min-width: 375px) and (max-width:609px) {
   .contact-us-btn {
     display: block;
     font-size: 16px;
@@ -1109,8 +1109,6 @@ footer .icon-div i {
     padding: 0px;
     text-align: center;
   }
-
-
 
   .treatment-section {
     text-align: center;
