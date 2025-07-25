@@ -803,7 +803,7 @@ footer .icon-div i {
   }
 }
 
- @media screen and (min-width: 610px) and (max-width:767px) {
+ @media screen and (min-width: 610px) and (max-width:768px) {
   .contact-us-btn {
     display: block;
     font-size: 16px;

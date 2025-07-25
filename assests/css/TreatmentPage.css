@@ -503,7 +503,7 @@ footer .icon-div i {
   }
 }
 
-@media screen  and (min-width:577px) and (max-width:767px){
+@media screen  and (min-width:577px) and (max-width:768px){
 
   .navbar {
     padding-left: 0px !important;
