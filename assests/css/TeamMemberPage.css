@@ -1,24 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header .row{
+header .row {
   max-width: 1255px;
 }
- 
 
-  header{
-    background-color: #465e6b;
-    color: #fff;
-  }
-  .navbar-row{
-    width: 85% !important;
-     padding-top: 33px !important;
+
+header {
+  background-color: #465e6b;
+  color: #fff;
+}
+
+.navbar-row {
+  width: 85% !important;
+  padding-top: 33px !important;
 }
 
 
-.navbar .header-btn{
+.navbar .header-btn {
   color: var(--white-font);
   border-radius: 0px;
   font-size: 16px;
@@ -31,11 +32,11 @@ header .row{
 
 }
 
-.navbar .header-btn:hover{
+.navbar .header-btn:hover {
   color: var(--white-font);
 }
 
-.navbar-toggler{
+.navbar-toggler {
   padding: 0.56rem 2.1rem !important;
   font-family: var(--poppins-font) !important;
   color: var(--white-font) !important;
@@ -47,11 +48,11 @@ header .row{
   font-weight: 500;
 }
 
-.navbar-toggler:hover{
+.navbar-toggler:hover {
   cursor: pointer;
 }
 
-.contact-us-btn{
+.contact-us-btn {
   display: none;
   padding: 0.56rem .76rem;
   font-family: var(--poppins-font);
@@ -63,54 +64,55 @@ header .row{
   font-weight: 500;
 }
 
-.contact-us-btn:hover{
+.contact-us-btn:hover {
   cursor: pointer;
 }
 
-.logo-text-content{
-    padding-right: 4rem !important;
-    color: var(--white-font);
-    text-align: end;
+.logo-text-content {
+  padding-right: 4rem !important;
+  color: var(--white-font);
+  text-align: end;
 }
 
-.logo-text-content img{
-   width : 205px; 
-    height: 90px;
-    object-fit: cover;
-    float: inline-end;
+.logo-text-content img {
+  width: 205px;
+  height: 90px;
+  object-fit: cover;
+  float: inline-end;
 }
 
-.icon-div{
-    display: flex;
-    gap: 15px;
-    justify-content: end;
-    margin-top: 1rem;
+.icon-div {
+  display: flex;
+  gap: 15px;
+  justify-content: end;
+  margin-top: 1rem;
 }
 
-.icon-div i{
-    font-size: 23px;
-    color: #e9e8e8;
+.icon-div i {
+  font-size: 23px;
+  color: #e9e8e8;
 }
 
-.navbar{
-    padding-left: 4rem !important;
+.navbar {
+  padding-left: 4rem !important;
 }
 
-.navbar-collapse .nav-link{
+.navbar-collapse .nav-link {
   text-decoration: none !important;
   color: var(--white-font);
   font-size: 16px;
   font-weight: 500;
   font-family: var(--poppins-font);
   line-height: 24px;
-  letter-spacing: 0.2px;
+  padding: .9rem 0rem !important;
 }
-.navbar-collapse .nav-link.active{
+
+.navbar-collapse .nav-link.active {
   border-bottom: 1px solid var(--link-border-color);
   color: var(--white-font);
 }
 
-.profile{
+.profile {
   padding-top: 3%;
   padding-bottom: 2%;
 }
@@ -118,10 +120,10 @@ header .row{
 
 .profile h1 {
   font-family: var(--abhaya-font);
-    color: #465e6b;
-    font-size: 2.8125rem;
-    font-weight: 500 !important;
-    margin: 0px !important;
+  color: #465e6b;
+  font-size: 2.8125rem;
+  font-weight: 500 !important;
+  margin: 0px !important;
 }
 
 .profile h2 {
@@ -144,26 +146,27 @@ header .row{
 
 .content .highlight {
   color: #af915d;
-    font-family: var(--abhaya-font);
-    font-size: 1.4375rem;
-    font-weight: 600;
-    line-height: 32px;
+  font-family: var(--abhaya-font);
+  font-size: 1.4375rem;
+  font-weight: 600;
+  line-height: 32px;
   margin-bottom: 20px;
   margin-top: 0px !important;
 }
 
 .content p {
   font-size: 1rem;
-    margin: 20px 0 0;
-    line-height: 32px;
-    font-family: var(--poppins-font);
+  margin: 20px 0 0;
+  line-height: 32px;
+  font-family: var(--poppins-font);
 }
 
-.meet-dentist-section{
+.meet-dentist-section {
   background-color: #f5f0ec;
   padding: 9% 0;
   margin-top: 5%;
 }
+
 .dentist-heading {
   margin-top: 45%;
   display: flex;
@@ -180,33 +183,35 @@ header .row{
   background-color: #cdb19b;
 }
 
-.dentist-text{
-    color: #465e6b;
-    font-size: 1.25rem;
-    font-weight: 600;
-    text-align: center;
+.dentist-text {
+  color: #465e6b;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
   text-transform: uppercase;
-margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 /* award-section */
 
-.award-text{
+.award-text {
   position: absolute;
   left: 37.5%;
   margin-top: 3rem;
-    font-family: var(--poppins-font);
-    font-size: 2.5rem !important;
-    letter-spacing: 3px;
-    font-weight: 400;
-    line-height: 45px;
+  font-family: var(--poppins-font);
+  font-size: 2.5rem !important;
+  letter-spacing: 3px;
+  font-weight: 400;
+  line-height: 45px;
 }
-.award-img-div{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+
+.award-img-div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-.award-img{
+
+.award-img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -215,94 +220,96 @@ margin-bottom: 0px !important;
 
 
 .footer {
-    background-color: #465e6b;
-    color: #fff;
-    padding: 50px 20px;
-    font-family: var(--poppins-font);
-    font-size: 16px;
-    line-height: 25px;
+  background-color: #465e6b;
+  color: #fff;
+  padding: 50px 20px;
+  font-family: var(--poppins-font);
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .gdc-link {
+  border-bottom: 1px solid;
+}
+
+.footer .gdc-link:hover {
+  color: #ddd;
+}
+
+.footer .site-update-text {
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.footer .phone-detail {
+  margin-top: 2rem;
+}
+
+.footer-bottom-icon-row {
+  align-items: center;
+  border-top: 1px solid #d8a77f;
+  border-bottom: 1px solid #d8a77f;
+}
+
+
+.footer-bottom {
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  justify-content: end;
+  gap: 90px;
+}
+
+footer .icon-div {
+  justify-content: left;
+  margin: 0px;
+  padding: 15px 0px;
+}
+
+footer .icon-div i {
+  font-size: 30px;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #ddd;
+}
+
+@media screen and (min-width : 1441px) {
+
+  .logo-text-content {
+    padding-right: 8rem !important;
+  }
+}
+
+@media screen and (min-width : 1360px) {
+  .logo-text-content {
+    padding-right: 5rem !important;
+  }
+}
+
+
+
+@media screen and (min-width:1024px) and (max-width:1300px) {
+  .navbar-row {
+    width: 90% !important;
   }
 
-  .footer a{
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .footer .gdc-link{
-    border-bottom: 1px solid;
-  }
-
-  .footer .gdc-link:hover{
-    color: #ddd;
-  }
-
-  .footer .site-update-text{
-    margin-top: 3rem;
-    padding-bottom: 2rem;
-  }
-
-  .footer .phone-detail{
-    margin-top: 2rem;
-  }
-
-  .footer-bottom-icon-row{
-    align-items: center;
-    border-top: 1px solid #d8a77f;
-    border-bottom: 1px solid #d8a77f;
-  }
-
-
-  .footer-bottom {
-    color: #fff;
-    font-size: 14px;
-    display: flex;
-    justify-content: end;
-    gap: 90px;
-  }
-
-  footer .icon-div{
-    justify-content: left;
-    margin: 0px;
-    padding: 15px 0px;
-  }
-
-  footer .icon-div i{
-    font-size: 30px;
-  }
-  
-  .footer-bottom a {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 14px;
-    text-decoration: none;
-  }
-
-  .footer-bottom a:hover {
-    color: #ddd;
-  }
-
-   @media screen and (min-width : 1441px) {
-    
-    .logo-text-content {
-      padding-right: 8rem !important;
-    }
-  }
-  @media screen and (min-width : 1360px) {
-      .logo-text-content {
-      padding-right: 5rem !important;
-    }
-    }
-
- 
-
-  @media screen and (min-width:1024px) and (max-width:1300px) {
-    .navbar-row {
-      width: 90% !important;
-  }
-
-  .navbar{
+  .navbar {
     padding-left: 0px !important;
   }
+
   .navbar .header-btn {
     padding: 7px 14px;
     font-size: 14px;
@@ -311,273 +318,285 @@ margin-bottom: 0px !important;
   .navbar-collapse .nav-link {
     font-size: 14px;
   }
+
   .content .highlight {
     font-size: 1.08rem;
   }
+
   .content p {
     font-size: .89rem;
     line-height: 31px;
   }
+
   .meet-dentist-section {
     padding: 5rem 0;
     margin-top: 2%;
   }
- 
-.dentist-text {
-   font-size: 18px;
+
+  .dentist-text {
+    font-size: 18px;
+  }
 }
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+  .logo-text-content {
+    padding-right: 0rem !important;
   }
 
-  @media screen and (min-width:768px) and (max-width:992px) {
-
-    .logo-text-content {
-       padding-right: 0rem !important;
-      }
-
-    .contact-us-btn{
-      display: block;
-    }
-
-    .profile h1 {
-      font-size: 1.5rem;
-    }
-    .content .highlight {
-      font-size: 1rem;
-      margin-bottom: 10px;
-    }
-    .content p {
-      font-size: .90rem;
-      margin-bottom: 10px;
-    }
-    .meet-dentist-section {
-      margin-top: 2%;
-      padding: 6% 0;
-    }
-    .award-img-div{
-      margin-bottom: 10px;
-    }
-    .footer{
-      font-size: 15px;
-    }
-    
-    .footer .footer-bottom {
-      gap: 50px;
-    }
-    .footer-bottom a {
-      font-size: 11px;
-    }
+  .contact-us-btn {
+    display: block;
   }
-  
-  @media screen and (min-width:576px) and (max-width:768px) {
 
-    .navbar{
-      padding-top: 20px;
-    }
+  .profile h1 {
+    font-size: 1.5rem;
+  }
 
-    .logo-text-content img {
-      float: none;
-    }
+  .content .highlight {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
 
-    .logo-text-content{
-      align-items: center;
-      text-align: center;
-      padding: 0px !important;
-    }
+  .content p {
+    font-size: .90rem;
+    margin-bottom: 10px;
+  }
 
+  .meet-dentist-section {
+    margin-top: 2%;
+    padding: 6% 0;
+  }
 
+  .award-img-div {
+    margin-bottom: 10px;
+  }
 
-    .dentist-text {
-      font-size: 1.3rem;
-      padding-bottom: 1rem;
-    }
+  .footer {
+    font-size: 15px;
+  }
 
-    .header-subtext {
-      font-size: 13px;
-    }
+  .footer .footer-bottom {
+    gap: 50px;
+  }
 
+  .footer-bottom a {
+    font-size: 11px;
+  }
+}
 
-    .navbar{
-      padding-left: 0px !important;
-      padding-right: 0px !important;
-    }
-    .navbar-toggler {
-      padding: 0.56rem 1.5rem !important;
-    }
+@media screen and (min-width:576px) and (max-width:768px) {
 
-    .navbar>.container-fluid{
-      justify-content: space-evenly;
-    }
+  .navbar {
+    padding-top: 20px;
+  }
 
-    .icon-div {
-      gap: 15px;
-      justify-content: center;
-    }
+  .logo-text-content img {
+    float: none;
+  }
 
-    .contact-us-btn{
-      display: block;
-    }
-
-    .header-bg-img .row {
-      width: 100% !important;
-    }
-
-    .award-img-div {
-      margin-bottom: 10px;
-      flex-direction: row;
-      justify-content: center;
-    }
+  .logo-text-content {
+    align-items: center;
+    text-align: center;
+    padding: 0px !important;
+  }
 
 
-    .dentist-heading {
-     margin-top: 0px; 
-     display: block; 
-    }
 
-    .heading-line{
-      display: none;
-    }
+  .dentist-text {
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+  }
 
-     
+  .header-subtext {
+    font-size: 13px;
+  }
+
+
+  .navbar {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .navbar-toggler {
+    padding: 0.56rem 1.5rem !important;
+  }
+
+  .navbar>.container-fluid {
+    justify-content: space-evenly;
+  }
+
+  .icon-div {
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .contact-us-btn {
+    display: block;
+  }
+
+  .header-bg-img .row {
+    width: 100% !important;
+  }
+
+  .award-img-div {
+    margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+  .dentist-heading {
+    margin-top: 0px;
+    display: block;
+  }
+
+  .heading-line {
+    display: none;
+  }
+
+
   .footer {
     padding: 3rem 0px;
     text-align: center;
-    
-}
 
-.footer p{
-  font-size: 17px;
-}
-.footer .phone-detail {
-  margin-top: 1.5rem;
-}
+  }
 
-.footer .site-update-text {
-  margin-top: 2rem;
-  padding-bottom: 0rem;
-}
+  .footer p {
+    font-size: 17px;
+  }
 
+  .footer .phone-detail {
+    margin-top: 1.5rem;
+  }
 
-.footer .icon-div{
-          justify-content: center !important;
-        gap: 1rem;
-        margin: 10px 0 0 !important;
-        padding: 10px 0px;
+  .footer .site-update-text {
+    margin-top: 2rem;
+    padding-bottom: 0rem;
   }
 
 
-.footer-bottom {
-flex-direction: column;
-text-align: center;
-padding: 1rem;
-gap: 15px;
-font-size: 22px;
-}
+  .footer .icon-div {
+    justify-content: center !important;
+    gap: 1rem;
+    margin: 10px 0 0 !important;
+    padding: 10px 0px;
+  }
+
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    gap: 15px;
+    font-size: 22px;
+  }
 
 }
-  @media screen and (min-width:375px) and (max-width:576px) {
 
-    .navbar{
-      padding-top: 20px;
-    }
+@media screen and (min-width:375px) and (max-width:576px) {
 
-    .logo-text-content img {
-      float: none;
-    }
+  .navbar {
+    padding-top: 20px;
+  }
 
-    .logo-text-content{
-      align-items: center;
-      text-align: center;
-      padding: 0px !important;
-    }
+  .logo-text-content img {
+    float: none;
+  }
 
-
-
-    .dentist-text {
-      font-size: 1.3rem;
-      padding-bottom: 1rem;
-    }
-
-    .header-subtext {
-      font-size: 13px;
-    }
+  .logo-text-content {
+    align-items: center;
+    text-align: center;
+    padding: 0px !important;
+  }
 
 
-    .navbar{
-      padding-left: 0px !important;
-      padding-right: 0px !important;
-    }
-    .navbar-toggler {
-      padding: 0.56rem 1.5rem !important;
-    }
 
-    .navbar>.container-fluid{
-      justify-content: space-evenly;
-    }
+  .dentist-text {
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+  }
 
-    .icon-div {
-      gap: 15px;
-      justify-content: center;
-    }
-
-    .contact-us-btn{
-      display: block;
-    }
-
-    .header-bg-img .row {
-      width: 100% !important;
-    }
-
-    .award-img-div {
-      margin-bottom: 10px;
-      flex-direction: row;
-      justify-content: center;
-    }
+  .header-subtext {
+    font-size: 13px;
+  }
 
 
-    .dentist-heading {
-     margin-top: 0px; 
-     display: block; 
-    }
+  .navbar {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 
-    .heading-line{
-      display: none;
-    }
+  .navbar-toggler {
+    padding: 0.56rem 1.5rem !important;
+  }
 
-     
+  .navbar>.container-fluid {
+    justify-content: space-evenly;
+  }
+
+  .icon-div {
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .contact-us-btn {
+    display: block;
+  }
+
+  .header-bg-img .row {
+    width: 100% !important;
+  }
+
+  .award-img-div {
+    margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+  .dentist-heading {
+    margin-top: 0px;
+    display: block;
+  }
+
+  .heading-line {
+    display: none;
+  }
+
+
   .footer {
     padding: 3rem 0px;
     text-align: center;
-    
-}
 
-.footer p{
-  font-size: 17px;
-}
-.footer .phone-detail {
-  margin-top: 1.5rem;
-}
+  }
 
-.footer .site-update-text {
-  margin-top: 2rem;
-  padding-bottom: 0rem;
-}
+  .footer p {
+    font-size: 17px;
+  }
 
+  .footer .phone-detail {
+    margin-top: 1.5rem;
+  }
 
-.footer .icon-div{
-          justify-content: center !important;
-        gap: 1rem;
-        margin: 10px 0 0 !important;
-        padding: 10px 0px;
+  .footer .site-update-text {
+    margin-top: 2rem;
+    padding-bottom: 0rem;
   }
 
 
-.footer-bottom {
-flex-direction: column;
-text-align: center;
-padding: 1rem;
-gap: 15px;
-font-size: 22px;
-}
+  .footer .icon-div {
+    justify-content: center !important;
+    gap: 1rem;
+    margin: 10px 0 0 !important;
+    padding: 10px 0px;
+  }
+
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    gap: 5px;
+  }
 
 }
- 

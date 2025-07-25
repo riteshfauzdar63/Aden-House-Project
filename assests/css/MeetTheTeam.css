@@ -85,6 +85,7 @@ header .row {
   color: var(--white-font);
   font-size: 16px;
   font-weight: 500;
+  padding: .9rem 0rem !important;
 }
 
 .navbar-collapse .nav-link.active {
